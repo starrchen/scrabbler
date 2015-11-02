@@ -11,6 +11,9 @@ class ScrabbleWord
 
 
   def score
+    # convert word to array of characters
+    # loop through each letter - get value of letter
+    # return total values
     letter_values = {
       a: 1, b: 3, c: 3, d: 2, e: 1,
       f: 4, g: 2, h: 4, i: 1, j: 8,
